@@ -54,6 +54,7 @@ class Simulation:
 
 	def handle_key(self, event):
 		if event.key == pygame.K_SPACE:
+			print("Clear Grid")
 			self.restart()
 		elif event.key == pygame.K_s:
 			print("Sand Mode")
